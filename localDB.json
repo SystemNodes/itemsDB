@@ -1,0 +1,26 @@
+[
+ {
+  "id": "123e4567-e89b-12d3-a456-426614174000",
+  "name": "Milk",
+  "inStock": true,
+  "unit": 2,
+  "unitPrice": 1.98,
+  "totalPrice": 3.96
+ },
+ {
+  "id": "46b5fb63-6970-4f40-8919-861bb517fa70",
+  "name": "Tooth Brush",
+  "inStock": true,
+  "unit": 2,
+  "unitPrice": 750,
+  "totalPrice": 1500
+ },
+ {
+  "id": "53d1974a-8afd-4426-8c57-5e2ff75893df",
+  "name": "Tooth Paste",
+  "inStock": true,
+  "unit": 5,
+  "unitPrice": 1000,
+  "totalPrice": 5000
+ }
+]
