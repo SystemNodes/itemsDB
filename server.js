@@ -98,8 +98,8 @@ const server = http.createServer((request, response)=>{
           const data = JSON.parse(goods)
           const validationError = validateGood(data);
             if (validationError) {
-              res.writeHead(400);
-              res.end(JSON.stringify({ error: validationError }));
+              response.writeHead(400);
+              response.end(JSON.stringify({ error: validationError }));
               return;
             }
           itemsDB[itemIndex] = {...itemsDB[itemIndex], ...data}
@@ -134,8 +134,8 @@ const server = http.createServer((request, response)=>{
           const data = JSON.parse(goods)
           const validationError = validateGood(data);
             if (validationError) {
-              res.writeHead(400);
-              res.end(JSON.stringify({ error: validationError }));
+              response.writeHead(400);
+              response.end(JSON.stringify({ error: validationError }));
               return;
             }
           itemsDB[itemIndex] = {...itemsDB[itemIndex], ...data}
